@@ -35,5 +35,5 @@ const createApiClient = (baseURL: string) => {
 };
 
 export const getServerApi = () => {
-  return createApiClient("http://smarter-be.herokuapp.com/smarter/api/v1");
+  return createApiClient("https://smarter-be.herokuapp.com/smarter/api/v1");
 };
